@@ -47,7 +47,7 @@ export default class ProgressiveImage extends Component {
 
         let highImageStyle = Object.assign({}, componentStyle);
 
-        !this.state.loaded && Object.assign(highImageStyle, {
+        !this.state.loaded && (lowUrl || renderOverlay) && Object.assign(highImageStyle, {
             display: 'none'
         });
 
