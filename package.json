@@ -1,0 +1,36 @@
+{
+  "name": "react-progressive-image",
+  "version": "0.0.1",
+  "description": "React component for progressive image loading",
+  "main": "lib/index.js",
+  "dependencies": {
+    "react-stack-blur": "git+https://github.com/markomatic/react-stack-blur.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markomatic/react-progressive-image.git"
+  },
+  "keywords": [
+    "react",
+    "image",
+    "blur"
+  ],
+  "author": "Marko Matic, <mail.marko.matic@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markomatic/react-progressive-image/issues"
+  },
+  "homepage": "https://github.com/markomatic/react-progressive-image"
+}
