@@ -34,15 +34,11 @@ export default class ProgressiveImage extends Component {
         let componentStyle = {
             padding: 0,
             margin: 0,
-            top: 0
-        };
-
-        width && Object.assign(componentStyle, {
-            width: `${width}px`
-        });
-        height && Object.assign(componentStyle, {
+            top: 0,
+            width: `${width}px`,
             height: `${height}px`
-        });
+        };
+        
         style && Object.assign(componentStyle, style);
 
         let highImageStyle = Object.assign({}, componentStyle);
